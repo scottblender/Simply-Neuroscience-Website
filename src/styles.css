@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-brand > img {
+  padding: 1px 1px;
+}
+.NavMain-StyledNavbar-module--cls2--2pVZv {
+  min-height: 4rem;
+  background-color: #20232a;
+}
+.navbar-expand .navbar-nav {
+  flex-direction: row;
+}
