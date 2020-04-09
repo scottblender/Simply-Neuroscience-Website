@@ -27,7 +27,7 @@ export default function App() {
             </Navbar.Brand>
             <div class="d-md-flex navbar-nav" id="top" role="navigation">
               <a
-                href="/App.js"
+                href="/"
                 data-rb-event-key=""
                 class="NavMain-StyledNavLink-module--cls2--1iTIQ NavMain-StyledNavLink-module--cls1--3NJV5 nav-link active"
               >
@@ -35,7 +35,7 @@ export default function App() {
                 Home{" "}
               </a>
               <a
-                href="./About"
+                href="/"
                 data-rb-event-key=""
                 class="NavMain-StyledNavLink-module--cls2--1iTIQ NavMain-StyledNavLink-module--cls1--3NJV5 nav-link"
               >
@@ -43,7 +43,7 @@ export default function App() {
                 About Us
               </a>
               <a
-                href="/Partnerships.js"
+                href="/"
                 data-rb-event-key=""
                 class="NavMain-StyledNavLink-module--cls2--1iTIQ NavMain-StyledNavLink-module--cls1--3NJV5 nav-link"
               >
@@ -150,84 +150,86 @@ export default function App() {
                 </div>
               </div>
             </div>
-            <Media>
-              <img
-                width={256}
-                height={256}
-                className="align-self-start mr-3"
-                src="Chinmayi profile picture.jpg"
-                alt="Generic placeholder"
-                fluid
-              />
-              <Media.Body>
-                <h5>Media Heading</h5>
-                <p>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin commodo. Cras purus odio,
-                  vestibulum in vulputate at, tempus viverra turpis. Fusce
-                  condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                  congue felis in faucibus.
-                </p>
+            <div>
+              <Media>
+                <img
+                  width={256}
+                  height={256}
+                  className="align-self-start mr-3"
+                  src="Chinmayi profile picture.jpg"
+                  alt="Generic placeholder"
+                  fluid
+                />
+                <Media.Body>
+                  <h5>Media Heading</h5>
+                  <p>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                    scelerisque ante sollicitudin commodo. Cras purus odio,
+                    vestibulum in vulputate at, tempus viverra turpis. Fusce
+                    condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                    congue felis in faucibus.
+                  </p>
 
-                <p>
-                  Donec sed odio dui. Nullam quis risus eget urna mollis ornare
-                  vel eu leo. Cum sociis natoque penatibus et magnis dis
-                  parturient montes, nascetur ridiculus mus.
-                </p>
-              </Media.Body>
-            </Media>
+                  <p>
+                    Donec sed odio dui. Nullam quis risus eget urna mollis
+                    ornare vel eu leo. Cum sociis natoque penatibus et magnis
+                    dis parturient montes, nascetur ridiculus mus.
+                  </p>
+                </Media.Body>
+              </Media>
 
-            <Media>
-              <img
-                width={256}
-                height={256}
-                className="align-self-center mr-3"
-                src="parin shaik profile picture.png"
-                alt="Generic placeholder"
-              />
-              <Media.Body>
-                <h5>Media Heading</h5>
-                <p>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin commodo. Cras purus odio,
-                  vestibulum in vulputate at, tempus viverra turpis. Fusce
-                  condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                  congue felis in faucibus.
-                </p>
+              <Media>
+                <img
+                  width={256}
+                  height={256}
+                  className="align-self-center mr-3"
+                  src="parin shaik profile picture.png"
+                  alt="Generic placeholder"
+                />
+                <Media.Body>
+                  <h5>Media Heading</h5>
+                  <p>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                    scelerisque ante sollicitudin commodo. Cras purus odio,
+                    vestibulum in vulputate at, tempus viverra turpis. Fusce
+                    condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                    congue felis in faucibus.
+                  </p>
 
-                <p>
-                  Donec sed odio dui. Nullam quis risus eget urna mollis ornare
-                  vel eu leo. Cum sociis natoque penatibus et magnis dis
-                  parturient montes, nascetur ridiculus mus.
-                </p>
-              </Media.Body>
-            </Media>
+                  <p>
+                    Donec sed odio dui. Nullam quis risus eget urna mollis
+                    ornare vel eu leo. Cum sociis natoque penatibus et magnis
+                    dis parturient montes, nascetur ridiculus mus.
+                  </p>
+                </Media.Body>
+              </Media>
 
-            <Media>
-              <img
-                width={256}
-                height={256}
-                className="align-self-end mr-3"
-                src="Aravind Krishnan Profile Picture.jpg"
-                alt="Generic placeholder"
-              />
-              <Media.Body>
-                <h5>Media Heading</h5>
-                <p>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin commodo. Cras purus odio,
-                  vestibulum in vulputate at, tempus viverra turpis. Fusce
-                  condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                  congue felis in faucibus.
-                </p>
+              <Media>
+                <img
+                  width={256}
+                  height={256}
+                  className="align-self-end mr-3"
+                  src="Aravind Krishnan Profile Picture.jpg"
+                  alt="Generic placeholder"
+                />
+                <Media.Body>
+                  <h5>Media Heading</h5>
+                  <p>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                    scelerisque ante sollicitudin commodo. Cras purus odio,
+                    vestibulum in vulputate at, tempus viverra turpis. Fusce
+                    condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                    congue felis in faucibus.
+                  </p>
 
-                <p className="mb-0">
-                  Donec sed odio dui. Nullam quis risus eget urna mollis ornare
-                  vel eu leo. Cum sociis natoque penatibus et magnis dis
-                  parturient montes, nascetur ridiculus mus.
-                </p>
-              </Media.Body>
-            </Media>
+                  <p className="mb-0">
+                    Donec sed odio dui. Nullam quis risus eget urna mollis
+                    ornare vel eu leo. Cum sociis natoque penatibus et magnis
+                    dis parturient montes, nascetur ridiculus mus.
+                  </p>
+                </Media.Body>
+              </Media>
+            </div>
           </>
         </div>
       </div>
